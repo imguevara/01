@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="file:///C|/Program%20Files%20(x86)/Adobe/Adobe%20Dreamweaver%20CS6/es_ES/Configuration/Third%20Party%20Source%20Code/jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="file:///C|/Program%20Files%20(x86)/Adobe/Adobe%20Dreamweaver%20CS6/es_ES/Configuration/Third%20Party%20Source%20Code/jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Marcas de Cerveza</h1>
+	</div>
+	<div data-role="content">
+    
+    <img src="cerveza.jpg" width="627" height="363">
+    
+    <ul data-role="listview">
+	        <li><a href="#page2" data-transition="fade">Corona</a></li>
+            <li><a href="#page3" data-transition="flip">Heineken</a></li>
+			<li><a href="#page4" data-transition="pop">Brahma</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Salud</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>La Cerveza</h1>
+	</div>
+	<div data-role="content" style="text-align:center">
+    
+    <img src="corona.jpg" width="800" height="544">
+    
+<p>    	
+  Corona Extra es la marca líder en el mercado nacional, la cerveza importada número uno en Estados Unidos, la cuarta marca más valiosa en el mundo y la cerveza mexicana de mayor venta en el mundo. Es una cerveza tipo pilsner. Corona Extra se enfoca en la gente que busca relajarse y refrescarse.
+  Es la única cerveza que hace sentir el orgullo de ser mexicano en todo el mundo. Actualmente se vende en más de 170 países en los cinco continentes y es líder en el segmento de importadas en casi 50 de esos países.
+  Corona Extra comenzó a elaborarse en México en 1925 en la Cervecería Modelo de la ciudad de Méxic
+</p>
+ 
+ <a href="#page" data-transition="fade"> REGRESA </a>
+ <a href="#page5" class="ui-btn"> AYUDA </a>
+ <button class="ui-btn"> BOTON </button>
+  	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>de México</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Cuauhtémoc</h1>
+	</div>
+	<div data-role="content" style="text-align:center">	
+    
+  <img src="heineken.jpg" width="800" height="575">
+<p>
+  CM/HEINEKEN México es el grupo cervecero con mayor tradición en México: opera 6 plantas, donde más de 16,000 trabajadores se esfuerzan para que cada cerveza sea una experiencia única. Esta dedicación en cada marca conforma el más amplio portafolio en el mercado. Junto con HEINEKEN, la cervecera con mayor presencia en el mundo, Cuauhtémoc Moctezuma conforma uno de los grupos más importantes de su industria en términos de volumen y rentabilidad.
+</p>
+<a href="#page" data-transition="fade"> REGRESA </a>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Moctezuma</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Chopp</h1>
+	</div>
+	<div data-role="content" style="text-align:center">
+    
+    <img src="brahma.JPG" width="1024" height="768">
+<p>    	
+  Brahma es una cerveza de Brasil. Fue lanzada en 1888 por el suizo Joseph Villiger por medio de la cervecería Manufactura de Cerveja Brahma Villiger & Companhia. Desde 1999 forma parte del portafolio de AmBev tras la fusión de Brahma y Antarctica.
+</p>	
+<a href="#page" data-transition="fade"> REGRESA </a>	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>con espuma</h4>
+	</div>
+</div>
+
+<div data-role="page"  data-dialog="true" id="page5">
+	<div data-role="header">
+		<h1> Ayuda </h1>
+	</div>
+	<div data-role="content" style="text-align:center">
+<p>    	
+En este espacio se mostrara la ayuda para tu problema
+</p>	
+<a href="#page" data-transition="fade"> REGRESA </a>	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4> Fin del comentario </h4>
+	</div>
+</div>
+
+</body>
+</html>
